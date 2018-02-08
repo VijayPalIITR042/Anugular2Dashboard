@@ -1,0 +1,38 @@
+<ng-container *ngFor="let json of jsonData; let even=even">
+
+<div  class="largeHero" *ngIf="json.tile=='large'">
+        <img src="../../../assets/images/widget-corner.png" alt="cornerlogo" class="cornerlogo" *ngIf = "!json.status"/>
+        <img src="../../../assets/images/widget-corner-red.png" alt="cornerlogo" class="cornerlogo" *ngIf = "json.status"/>
+        <div class="name">{{json.name}}</div>
+        <div class="inactivespace">
+                <div class="inactive balance">{{json.status}}</div>
+                <div class="_90days">{{json.message}} </div>
+        </div>
+        <div class="balance">Available Balance</div>
+        <div class="currency">{{json.currency}}</div>
+        <div class="amount">{{json.balance}}</div>
+        <div>
+                <div class="date">{{json.date}}</div>
+                <div class="principalamount">Tran for principal amount</div>
+                <div class="money">{{json.P_amount}}</div>
+        </div>
+        <div class="transactions"></div>
+        <div class="termloan">Term loan | {{json.Term_loan}}</div>
+    </div>
+</ng-container>
+<ng-container *ngFor="let json of jsonData; let index=index">
+
+        <div  class="smallHero" *ngIf="json.tile=='small'">
+                <img src="../../../assets/images/widget-corner.png" alt="cornerlogo" class="cornerlogo" *ngIf = "!json.status"/>
+                <img src="../../../assets/images/widget-corner-red.png" alt="cornerlogo" class="cornerlogo" *ngIf = "json.status"/>
+                <div class="smallname">{{json.name}}</div>
+                <div class="smallinactivespace">
+                        <div class="smallinactive smallbalance">{{json.status}}</div>
+                        <div class="small_90days">{{json.message}} </div>
+                </div>
+                <div class="smallbalance">Available Balance</div>
+                <div class="smallcurrency">{{json.currency}}</div>
+                <div class="smallamount">{{json.balance}}</div>
+                <div class="smalltermloan">Term loan | {{json.Term_loan}}</div>
+        </div>
+</ng-container>

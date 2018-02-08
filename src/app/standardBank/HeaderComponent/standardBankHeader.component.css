@@ -1,0 +1,71 @@
+@font-face{
+    font-family:Roboto-Regular;
+    src : url(assets/fonts/Roboto-Regular-webfont.ttf);
+    
+  }
+  
+  @font-face{
+    font-family:Roboto-Light;
+    src : url(assets/fonts/Roboto-Light-webfont.ttf);
+  }
+  
+  @font-face{
+    font-family:Roboto-Bold;
+    src : url(assets/fonts/Roboto-Bold-webfont.ttf);
+  }
+
+  .header-band {
+    height: 70px;
+    background: url(assets/images/header-band.png) no-repeat;
+  }
+  
+  .bar {
+    width: 32px;
+    height: 3px;
+    background-color: white;
+    
+    outline: none;
+    margin: 6px 0;
+  }
+  
+  .nav-menu {
+      position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 17px;
+    cursor: pointer;
+  }
+  
+  .HeaderText {
+  font-family: Roboto-Regular;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 20px;
+  color: white;
+  }
+  
+  .logobox {
+    width: 84%;
+    display: inline-block;
+  }
+  
+  .logo {
+  left: 48%;
+  position: absolute;
+  width: 50px;
+  top:2%;
+  }
+  
+  .signOut{
+    font-family: Roboto-Regular;
+    cursor: pointer;
+    display: inline-block;
+  vertical-align: bottom;
+  font-size: 20px;
+  color: white;
+  }
+  
+  .blur {
+    opacity: 0.5;
+  }

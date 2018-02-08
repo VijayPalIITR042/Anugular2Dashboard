@@ -1,0 +1,79 @@
+@font-face{
+    font-family:Roboto-Bold;
+    src : url(assets/fonts/Roboto-Bold-webfont.ttf);
+  }
+
+  @font-face{
+    font-family:Roboto-Regular;
+    src : url(assets/fonts/Roboto-Regular-webfont.ttf);
+    
+  }
+
+  .bar {
+    width: 32px;
+    height: 3px;
+    background-color: white;
+    
+    outline: none;
+    margin: 6px 0;
+  }
+  
+  .nav-menu {
+      position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    
+    margin-top: 24px;
+    cursor: pointer;
+  }
+  
+  .HeaderText {
+  font-family: Roboto-Regular;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 20px;
+  color: white;
+  }
+
+.side-nav {
+    background: #5b69ec;
+    color: #fff;
+    position: fixed;
+    top: 1%;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    min-width: 250px;
+    z-index: 9999;
+    padding-left: 40px;
+    transition: all 1s linear;   
+    
+  }
+
+  .mydashboard {
+    font-family: Roboto-Bold;
+    width: 80%;
+    margin-top: 8%;
+    padding-bottom: 7px;
+    border-bottom: 0.1px solid white;
+    font-size: 24px;
+  }
+
+  .options {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    margin: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  .last {
+    margin-top: 70px;
+    padding-top: 24px;
+    width: 80%;
+    border-top: 1px solid white;
+  }
+
+
+
+

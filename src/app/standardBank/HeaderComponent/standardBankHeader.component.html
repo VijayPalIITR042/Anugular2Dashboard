@@ -1,0 +1,15 @@
+<side-nav [(showNav)]='show' *ngIf="show">
+  </side-nav>
+<div class="header-band" [ngClass]=" show ? 'blur':''">
+  <div (click) = "toggleMenu()" class="nav-menu">
+    <div class="bar"></div>
+     <div class="bar"></div>
+     <div class="bar"></div>
+    </div>
+     &nbsp;
+    <div class="HeaderText"> Menu </div>
+     <div class="logobox">
+        <img src="assets/images/logo-3D.png" alt="logo" class="logo">
+      </div>
+        <div class="signOut"> Sign out </div>
+</div>

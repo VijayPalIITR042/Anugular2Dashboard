@@ -1,0 +1,30 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+@font-face{
+  font-family:Roboto-Regular;
+  src : url(assets/fonts/Roboto-Regular-webfont.ttf);
+  
+}
+
+@font-face{
+  font-family:Roboto-Light;
+  src : url(assets/fonts/Roboto-Light-webfont.ttf);
+}
+
+@font-face{
+  font-family:Roboto-Bold;
+  src : url(assets/fonts/Roboto-Bold-webfont.ttf);
+}
+
+body{
+  background-color: rgb(233, 233, 236);
+  display: flex;
+}
+
+.blur {
+  opacity: 0.5;
+}
