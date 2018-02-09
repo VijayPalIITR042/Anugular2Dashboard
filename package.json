@@ -23,7 +23,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": { 
     "@angular/common": "~4.3.4",
     "@angular/compiler": "~4.3.4",
     "@angular/core": "~4.3.4",
